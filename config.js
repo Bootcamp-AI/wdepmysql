@@ -1,5 +1,5 @@
-export const VERIFY_TOKEN = process.env.VERIFY_TOKEN || '!snoftest';
-export const WHATSAPP_TOKEN = process.env.WHATSAPP_TOKEN || 'EAAObY4hkTCEBAK5mePqJluNo61UJkL62bQURtDZBWwzlapdxkhVkbnSZCZCP5PvgsAqQZC6aXAlOzrcg5gJsEZCT26x9uMa1rS7jwZCJY4oSjF35OBfz0KZCLKOO4WnzLRfwpZAAaZA56SDHxL9bQ1vQqm3IHdjAymZCVZBqNhVqL8fDts9NVW5OP3sO6JaG5ZAogdNRsSKs18WsrQZDZD';
+export const VERIFY_TOKEN = process.env.VERIFY_TOKEN ;
+export const WHATSAPP_TOKEN = process.env.WHATSAPP_TOKEN ;
 export const PORT = process.env.PORT || 8080;
 export const DB_HOST = process.env.DB_HOST || 'localhost';
 export const DB_USER = process.env.DB_USER || 'root';
