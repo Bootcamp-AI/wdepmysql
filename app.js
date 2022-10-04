@@ -6,7 +6,6 @@
 // (copy token from DevX getting started page
 // and save it as environment variable into the .env file)
 
-const token = VERIFY_TOKEN;
 
 // Imports dependencies and set up http server
 import request from "request";
@@ -32,6 +31,8 @@ import {
 	WHATSAPP_TOKEN,
     PORT
 } from './config.js'
+
+const token = WHATSAPP_TOKEN;
 
 
 
