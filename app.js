@@ -136,7 +136,7 @@ async function executeQueries(projectId, sessionId, queries, languageCode){
 
 
 // Sets server port and logs message on success
-app.listen(PORT, () => console.log("webhook is listening"));
+app.listen(PORT, () => console.log("webhook is listening"+PORT));
 
 
 
@@ -312,6 +312,7 @@ function sendMessageToWhatsapp(response,phone_number_id, from) {
 app.get("/webhook", (req, res) => {
 
   const verify_token = VERIFY_TOKEN;
+  console.log("Token: "+verify_token)
 
   // Parse params from the webhook verification request
   let mode = req.query["hub.mode"];
