@@ -321,6 +321,7 @@ app.get("/webhook", (req, res) => {
 
   console.log("mode: "+mode)
   console.log("token: "+token)
+  console.log("challenge: "+challenge)
   // Check if a token and mode were sent
   if (mode && token) {
     // Check the mode and token sent are correct
