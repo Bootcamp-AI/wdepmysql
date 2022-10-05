@@ -312,7 +312,7 @@ function sendMessageToWhatsapp(response,phone_number_id, from) {
 app.get("/webhook", (req, res) => {
 
   const verify_token = VERIFY_TOKEN;
-  console.log("Token: "+verify_token)
+  console.log("Token: "+req)
 
   // Parse params from the webhook verification request
   let mode = req.query["hub.mode"];
